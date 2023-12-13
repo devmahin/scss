@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #ffab73;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+}
+header nav ul li a:hover {
+  background-color: #72bb2d;
+  border-radius: 20px;
+}
+
+main {
+  background-color: #72bb2d;
+  padding: 20px;
+}
+
+footer {
+  background-color: #fc0000;
+  padding: 20px;
+}/*# sourceMappingURL=index.css.map */
