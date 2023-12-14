@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+.btn, .btn_3, .btn_2, .btn_1 {
+  padding: 10px 20px;
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  font-size: 20px;
+}
+
+nav {
+  background-color: rgb(58, 20, 228);
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  list-style: none;
+}
+nav ul li {
+  font-size: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#About {
+  font-size: 20px;
+  background-color: green;
+  color: black;
+  padding: 0px 200px;
+  margin: 5px 0px;
+}
+
+#Education {
+  font-size: 15px;
+  background-color: rgb(128, 0, 0);
+  color: black;
+  padding: 10px;
+  margin: 5px 0px;
+}
+
+.btn_2 {
+  background-color: red;
+}
+
+.btn_3 {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+@forward "../dist/index";
+@use "../scss/index";
+
+@mixin allAbout($size, $colors, $paddings){
+    font-size: $size;
+    background-color: $colors;
+    color: black;
+    padding: $paddings;
+    margin: 5px 0px;
+}
+
+// inheritance
+.btn{
+    padding: 10px 20px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+
+
+nav{
+    background-color: index.$navcolor_color;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 200px;
+        list-style: none;
+        li{
+            font-size: 20px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+#About{
+        @include allAbout(20px, green, 0px 200px);
+}
+#Education{
+    @include allAbout(15px, rgb(128, 0, 0), 10px);
+
+}
+
+.btn_1{
+    @extend .btn;
+}
+.btn_2{
+    @extend .btn;
+    background-color: red;
+}
+.btn_3{
+    @extend .btn;
+    background-color: green;
+}
